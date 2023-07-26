@@ -124,6 +124,51 @@
                 </div>
             </div>
         </section>
+        <section class="numbers-section">
+            <div class="container">
+                <div class="numbers-container">
+                    <div>
+                        <h3>
+                            1.926
+                        </h3>
+
+                        <h4>
+                            FINISHED SESSION
+                        </h4>
+                    </div>
+
+                    <div>
+                         <h3>
+                            3.092+
+                        </h3>
+
+                        <h4>
+                            ENROLLED LEARNES
+                        </h4>
+                    </div>
+
+                    <div>
+                         <h3>
+                            200
+                        </h3>
+
+                        <h4>
+                            ONLINE INSTRUCTORS
+                        </h4>
+                    </div>
+
+                    <div>
+                         <h3>
+                            100%
+                        </h3>
+
+                        <h4>
+                            SATISFACTION RATE
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </template>
 
@@ -145,7 +190,7 @@ $grigio-viola: #8C89A2;
     main{
         section{
             padding: 20px;
-            background-color: $bianco;
+            background-color: $bianco-scuro;
 
             h4{
                 text-align: center;
@@ -273,6 +318,30 @@ $grigio-viola: #8C89A2;
                             }
                         
                     }
+                }
+            }
+        }
+       }
+       .numbers-section{
+        background-color: $avorio;
+        .numbers-container{
+            display: flex;
+
+            div{
+                width: calc(100% / 4);
+
+                h3, h4{
+                    text-align: center;
+                }
+
+                h3{
+                    font-size: 1.75em;
+                    color: $verde-acqua;
+                }
+
+                h4{
+                    font-size: 0.75em;
+                    color: $viola;
                 }
             }
         }

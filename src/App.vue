@@ -3,7 +3,9 @@ import HeaderApp from './components/HeaderApp.vue';
 import MainApp from './components/MainApp.vue';
 import MainAppSecond from './components/MainAppSecond.vue';
 import MainAppThird from './components/MainAppThird.vue';
+import MainAppFourth from './components/MainAppFourth.vue';
 import FooterApp from './components/FooterApp.vue';
+
 
 
   export default {
@@ -11,7 +13,7 @@ import FooterApp from './components/FooterApp.vue';
     data() {
         return {};
     },
-    components: { HeaderApp, MainApp, MainAppSecond, MainAppThird, FooterApp }
+    components: { HeaderApp, MainApp, MainAppSecond, MainAppThird, MainAppFourth, FooterApp }
 }
 </script>
 
@@ -20,6 +22,7 @@ import FooterApp from './components/FooterApp.vue';
  <MainApp/>
  <MainAppSecond/>
  <MainAppThird/>
+ <MainAppFourth/>
  <FooterApp/>
 </template>
 

@@ -123,7 +123,7 @@ $grigio-viola: #8C89A2;
 
     header{
         height: 80px;
-        background-color: $grigio-chiaro;
+        background-color: $avorio;
 
        .header-container{
         display: flex;
@@ -156,6 +156,7 @@ $grigio-viola: #8C89A2;
 
     section{
         background-color: $grigio-chiaro;
+        background-image: url('../assets/img/jumbo-overlay.svg');
         .jumbo{
         display: flex;
         align-items: center;

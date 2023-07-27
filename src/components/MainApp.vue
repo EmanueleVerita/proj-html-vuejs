@@ -28,8 +28,15 @@
 
         }
       ]
+    };
+  },
+  /*
+  computed: {
+    avatarImage(){
+        return this.avatar;
     }
   }
+  */
 }
 </script>
 
@@ -64,6 +71,7 @@
 
                             <button>
                                 Start now
+                                <i class="fa-solid fa-arrow-right-long"></i>
                             </button>
                         
                     </div>
@@ -90,7 +98,11 @@
                         </h4>
 
                         <h3>
-                            Costruct A Stunning Career Perspective
+                            Costruct A 
+                            <strong>
+                                Stunning
+                            </strong> 
+                            Career Perspective
                         </h3>
 
                         <div class="boxes">
@@ -233,11 +245,15 @@ $grigio-viola: #8C89A2;
                     }
 
                     button{
-                        background-color: $bianco;
+                        background-color: $bianco-scuro;
                         color: $viola;
                         border: none;
                         padding: 10px;
                         margin: 0 90px;
+                    }
+
+                    button:hover{
+                        color: $verde-acqua;
                     }
                 
             }
@@ -272,6 +288,13 @@ $grigio-viola: #8C89A2;
                 h4{
                     font-size: 1em;
                    
+                }
+
+                h3{
+                    color: $viola;
+                        strong{
+                            color: $verde-acqua;
+                        }
                 }
 
                 .boxes{

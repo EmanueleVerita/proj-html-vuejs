@@ -190,9 +190,17 @@ main{
                                             border-color: $verde-acqua;
                                             border-radius: 4px;
                                         }
+
+                                        button:hover{
+                                            background-color: $viola;
+                                        }
                
                                 } 
                             }
+                    }
+                    .card:hover{
+                        background-color: $bianco-scuro;
+                        border-left-color: $verde-acqua;
                     }
             }
 

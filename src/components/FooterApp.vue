@@ -180,6 +180,16 @@ $grigio-viola: #8C89A2;
                     list-style: none;
                     padding: 10px;
                 }
+                h5{
+                    padding-left: 10px;
+                    padding-top: 5px;
+                   
+
+                        i{
+                            padding-right: 10px;
+                            
+                        }
+                }
                 a{
                     text-decoration: none;
                     color: $grigio-scuro;

@@ -23,36 +23,42 @@
                             <li>
                                 <a href="">
                                     Home
+                                    <i class="fa-solid fa-chevron-down"></i>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="">
                                     Pages
+                                    <i class="fa-solid fa-chevron-down"></i>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="">
                                    Courses 
+                                   <i class="fa-solid fa-chevron-down"></i>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="">
                                    Features 
+                                   <i class="fa-solid fa-chevron-down"></i>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="">
                                     Blog
+                                    <i class="fa-solid fa-chevron-down"></i>
                                 </a>
                             </li>
 
                             <li>
                                 <a href="">
                                     Shop
+                                    <i class="fa-solid fa-chevron-down"></i>
                                 </a>
                             </li>
 
@@ -182,7 +188,15 @@ $grigio-viola: #8C89A2;
                 border-color: $verde-acqua;
                 color: $bianco;
 
+                    button:hover{
+                        background-color: $viola;
+                    }
+
             }
+
+            button:hover{
+                        background-color: $viola;
+                    }
 
             
 

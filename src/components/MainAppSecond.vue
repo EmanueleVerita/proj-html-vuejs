@@ -72,7 +72,7 @@
                 </h3>
 
                 <div class="courses-achivment">
-                   <div v-for="SingleAchivment in achivments">
+                   <div v-for="SingleAchivment in achivments" class="schede">
                         <img :src="SingleAchivment.image" alt="" class="regular-image">
                         <div class="tutor">
                             <img :src="SingleAchivment.circleImage" alt="" class="circle-image">
@@ -121,22 +121,22 @@
                         </h3>
 
                         <p>
-                            <font-awesome-icon :icon="['fas', 'check']" />
+                            <i class="fa-solid fa-check"></i>
                             Select & costumize courses to your preferences
                         </p>
 
                         <p>
-                            <font-awesome-icon :icon="['fas', 'check']" />
+                            <i class="fa-solid fa-check"></i>
                             Change the tutor and make arrangements
                         </p>
 
                         <p>
-                            <font-awesome-icon :icon="['fas', 'check']" />
+                            <i class="fa-solid fa-check"></i>
                             Posticipate in events to join others
                         </p>
 
                         <p>
-                            <font-awesome-icon :icon="['fas', 'check']" />
+                            <i class="fa-solid fa-check"></i>
                             Get the desired certificate delivered at house
                         </p>
                         <div>
@@ -274,6 +274,9 @@ main{
                     padding: 10px;
                 }
             }
+            .schede:hover{
+                background-color: $bianco;
+            }
         }
         .button-container{
             display: flex;
@@ -286,6 +289,10 @@ main{
                 color: $bianco;
                 border-color: $verde-acqua;
                 border-radius: 4px;
+            }
+
+            button:hover{
+                background-color: $viola;
             }
         }
 
